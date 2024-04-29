@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinheria Agnello</title>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="img/logo.png" alt="Logo" class="logo">
+            <h1 style="font-family: 'Alex Brush', cursive"> Vinheria Agnello</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html"><span class="material-symbols-outlined" style="font-size: 24px; vertical-align: middle; margin: 5px;">home</span>Menu</a></li>
+                <li><a href="sobre.html"><span class="material-symbols-outlined" style="font-size: 24px; vertical-align: middle; margin: 5px;">group</span>Sobre</a></li>
+                <li><a href="pageportfolio.html"><span class="material-symbols-outlined" style="font-size: 24px; vertical-align: middle; margin: 5px;">menu_book</span>Portfólio</a></li>
+                <li><a href="contato.html"><span class="material-symbols-outlined" style="font-size: 24px; vertical-align: middle; margin:5px">call</span>Contato</a></li>
+                <li><a href="tipos.html"><span class="material-symbols-outlined" style="font-size: 24px; vertical-align: middle; margin:5px">wine_bar</span>Tipos</a></li>
+            </ul>
+        </nav>
+    </header>   
+
+    <h2 style="font-family: Dancing Script;">Página de Contato</h2>
+    
+    <form action="contact_send.php" method="post">
+        <div class="primeiros">
+        <input type="text" id="nome" class="name" name="nome" placeholder="Seu nome">
+        <input type="text" id="email" name="email" placeholder="Seu email">
+        </div>
+        <input type="text" id="telefone" name="telefone" placeholder="Seu telefone">
+        <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+</html>

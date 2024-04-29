@@ -1,0 +1,37 @@
+*{
+   margin: 0; 
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #660022;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #EBe5ce;
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  li a:hover {
+    background-color: #D6BBB6;
+    color: #660022;
+    border-radius: 10px;
+    transition: 1s;
+    transform: scale(1.2);
+}
+  
+  

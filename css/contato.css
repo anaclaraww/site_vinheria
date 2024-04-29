@@ -1,0 +1,56 @@
+.primeiros{
+    display: flex;
+    
+}
+
+header{
+  margin-bottom: 50px;
+}
+
+h2{
+  color: #660022;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  font-size: 50px;
+}
+
+body{
+  background-color: #EBe5ce;
+}
+form {
+    color: #660022;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #660022;
+    background-color: #a56b5d;
+  }
+  input,
+  textarea {
+    display: block;
+    color: #660022;
+    width: 88%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #660022;
+    margin-right: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+  }
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: 21px;
+  }
+  button:hover {
+    background-color: #45a049;
+  }
+
+  ::-webkit-input-placeholder {
+    color: #8c162a;
+    font: 12px verdana, arial, sans-serif;
+ }
