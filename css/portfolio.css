@@ -5,6 +5,9 @@ body{
     width: 100%;
 }
 .portfolio{
+    max-width: 100vw;
+     overflow: hidden; 
+  
     margin: auto;
     margin-top: 100PX;
 }
@@ -12,34 +15,54 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-evenly; 
+    width: 100%;
     font-family: "Josefin Slab", serif;
 }
 .title-container h1{
-    font-size: 50px;
+    font-size:50px;
     font-weight: 400;
     width: min-content;
     text-align: center;
     border-bottom: 2px solid black;
+    animation:  encolher 2s infinite ease;
 }
 .circles{
  display: flex;
  align-items: center;
+ width: min-content;
+
 }
 .circles img,.circle-one,.circle-two{
-    width: 300px;
-    height: 300px;
+    width: 33vw;
+    height: 33vw;
     border-radius: 1000px;
 }
 .circles img{
-    z-index: 10;
+    z-index: 5;
+    margin-right: -10vw;
+    transition: 2s all;
+}
+.circles img:hover{
+    transform: scale(0.9);
 }
 .circle-one{
     background-color:#8C162A;
-    margin-right: -200px;
+    margin-right: -20vw;
+    transition: 2s all;
 }
+
+.circle-one:hover{
+    margin-right: -25vw;
+}
+   
 .circle-two{
     background-color: #A56B5D;
-    margin-left: -200px;
+    margin-left: -10vw; 
+    transition: 2s all;
+
+}
+.circle-two:hover{
+    margin-left: -15vw; 
 }
 .item-article{
     margin: auto;
@@ -55,11 +78,12 @@ body{
     margin-left: 4vw;
     padding: 2%;
     transition: 1s all;
-    width: 400px;
-    height: 400px;
+    width: 30vw;
+    height: 30vw;
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 50;
    
 }
 
@@ -77,6 +101,12 @@ body{
     width: 12vw;
     height: 12vw;
     background-color: #a71f07;
+    transition: 2s all;
+    z-index: -5;
+}
+.square-one:hover{
+    transform: rotate(180deg);
+    z-index: -5;
 }
 .desc{
     display: flex;
@@ -84,6 +114,7 @@ body{
     align-items: center;
     justify-content: center;
     padding: 6%;
+    width: 80%;
 }
 .desc h1{
     font-family: "Island Moments", cursive;
@@ -105,4 +136,16 @@ body{
     .square-two img{
         max-width: 70vw;
     }
+    .title-container h1{
+        font-size:xx-large;
+    }
 }
+
+@keyframes encolher {
+    0% {
+      border-bottom-width: 1px;
+    }
+    100% {
+        border-bottom-width: 10px;
+    }
+  }
