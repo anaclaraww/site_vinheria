@@ -22,11 +22,14 @@ img{
     display: flex;
     flex-direction: column ;
     margin-right: 10px;
+    
+
 }
 
 .primeirop h2{
     display: flex;
     justify-content: center;
+   
 }
 
 h1{
@@ -43,3 +46,116 @@ p{
     font-size: 20px;
 }
 
+
+@keyframes scale-up-left {
+    0% {
+      transform: scale(0);
+      transform-origin: left center;
+    }
+    100% {
+      transform: scale(1);
+      transform-origin: left center;
+    }
+  }
+  
+  
+  .primeirop h2 {
+    animation: scale-up-left 1.1s;
+    transform: scale(1);
+    transform-origin: left center;
+  }
+
+ 
+@keyframes scale-up-left {
+    0% {
+      transform: scale(0);
+      transform-origin: left center;
+    }
+    100% {
+      transform: scale(1);
+      transform-origin: left center;
+    }
+  }
+  
+  
+  .section2 h2 {
+    animation: scale-up-left 1.1s;
+    transform: scale(1);
+    transform-origin: left center;
+  }
+
+  
+@keyframes scale-up-left {
+    0% {
+      transform: scale(0);
+      transform-origin: left center;
+    }
+    100% {
+      transform: scale(1);
+      transform-origin: left center;
+    }
+  }
+  
+  
+  p {
+    animation: scale-up-left 1.1s;
+    transform: scale(1);
+    transform-origin: left center;
+  }
+
+  
+@keyframes scale-up-left {
+    0% {
+      transform: scale(0);
+      transform-origin: left center;
+    }
+    100% {
+      transform: scale(1);
+      transform-origin: left center;
+    }
+  }
+  
+  
+    h1 {
+    animation: scale-up-left 1.1s;
+    transform: scale(1);
+    transform-origin: left center;
+  }
+
+  
+@keyframes scale-up-left {
+    0% {
+      transform: scale(0);
+      transform-origin: left center;
+    }
+    100% {
+      transform: scale(1);
+      transform-origin: left center;
+    }
+  }
+  
+  
+  .section1 img {
+    animation: scale-up-left 1.1s;
+    transform: scale(1);
+    transform-origin: left center;
+  }
+
+  /* Definição da animação */
+@keyframes scale-up-left {
+    0% {
+      transform: scale(0);
+      transform-origin: left center;
+    }
+    100% {
+      transform: scale(1);
+      transform-origin: left center;
+    }
+  }
+  
+  /* Aplicando a animação ao título */
+  header h1 {
+    animation: scale-up-left 1.1s;
+    transform: scale(1);
+    transform-origin: left center;
+  }
