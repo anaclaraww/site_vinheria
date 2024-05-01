@@ -16,7 +16,7 @@ O projeto está estruturado da seguinte forma:
 - **img:** Pasta com imagens utilizadas no site.
 - **index.html:** Página inicial do site.
 - **sobre.html:** Página sobre a vinícola.
-- **contato.html:** Página de contato.
+- **contato.html:** Página para entar em contato com a vinícula.
 - **portfolio.html:** Página com o portfólio de vinhos.
 - **tipos.html:** Página com os tipos de vinhos.
 
@@ -25,4 +25,4 @@ O projeto está estruturado da seguinte forma:
 #### Equipe responsável: 
 Ana Clara melo, Gabriel Vallejo, Gustavo Jun, Pedro Faim e Yasmin Sobral.
 
-# site_vinheria
+### 🔗 [Site Vinheria](https://anaclaraww.github.io/site_vinheria/)
